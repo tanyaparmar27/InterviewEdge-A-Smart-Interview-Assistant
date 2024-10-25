@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ede8f5; 
+  color: #3d52a0; 
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: azure;
+}
+h2, h3 {
+  color: #3d52a0; 
+}
+
+button, .btn {
+  background-color: #7091e6; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #3d52a0; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}

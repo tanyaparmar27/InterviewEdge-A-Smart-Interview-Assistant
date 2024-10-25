@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+transformers
+torch
+langchain
+pyngrok
+langchain_community
+sentence-transformers
