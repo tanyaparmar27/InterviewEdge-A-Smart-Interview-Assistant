@@ -12,11 +12,11 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
 - Interview Summaries: Summarizes interview sessions into a downloadable PDF
 - Multi-Modal Input: Accepts both text and voice responses for convenience
 - Multi-Language Support: Supports Java, C++, and C with tailored evaluation metrics
--Evaluation Criteria:
-  -Technical Accuracy
-  -Completeness
-  -Domain-specific knowledge
-  -Clarity & Structure
+- Evaluation Criteria:
+  - Technical Accuracy
+  - Completeness
+  - Domain-specific knowledge
+  - Clarity & Structure
 
 
 ## System Architecture
@@ -41,7 +41,9 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
      npm install
      ```
    - For ReactMic dependency issue, run:
-     `npm install --legacy-peer-deps`
+     ```
+     npm install --legacy-peer-deps
+     ```
      
 2. Install backend dependencies
    ```
@@ -56,11 +58,15 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
      NGROK_AUTH_TOKEN=<your_ngrok_auth_token>
      ```
 4. Download the Llama model
-   `python Saving_Llama3_3B.py`
+   ```
+   python Saving_Llama3_3B.py
+   ```
 
-5. Run the application
+6. Run the application
    - Run the backend
-     `python app.py`
+     ```
+     python app.py
+     ```
    - Run the frontend
      ```
      cd ../frontend
