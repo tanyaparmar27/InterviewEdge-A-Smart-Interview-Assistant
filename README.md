@@ -35,11 +35,38 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
 
 ### Installation Steps
 1. Install frontend dependencies
-   - Navigate to the frontend directory and install dependencies
+   - Navigate to the frontend directory and install dependencies:
      ```
      cd frontend
      npm install
      ```
+   - For ReactMic dependency issue, run:
+     `npm install --legacy-peer-deps`
+     
+2. Install backend dependencies
+   ```
+   cd ../backend
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables
+   - Create a `.env` file in the backend directory with the following values:
+     ```
+     HF_TOKEN=<your_hugging_face_token>
+     NGROK_AUTH_TOKEN=<your_ngrok_auth_token>
+     ```
+4. Download the Llama model
+   `python Saving_Llama3_3B.py`
+
+5. Run the application
+   - Run the backend
+     `python app.py`
+   - Run the frontend
+     ```
+     cd ../frontend
+     npm start
+     ```
+   - Access the application at http://localhost:3000
 
 
-Thank you for using InterviewEdge! Feel free to reach out with questions or suggestions.
+#### Thank you for using InterviewEdge! Feel free to reach out with questions or suggestions.
