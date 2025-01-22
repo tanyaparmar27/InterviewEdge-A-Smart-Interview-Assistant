@@ -75,4 +75,4 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
    - Access the application at http://localhost:3000
 
 
-#### Thank you for using InterviewEdge! Feel free to reach out with questions or suggestions.
+**Thank you for using InterviewEdge! Feel free to reach out with questions or suggestions.**
