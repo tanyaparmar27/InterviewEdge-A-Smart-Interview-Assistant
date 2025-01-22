@@ -34,9 +34,12 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
 - Backend: Python (v3.8 or above), Ngrok (optional), Lightning AI (optional for GPU support)
 
 ### Installation Steps
-`cd frontend`
-`npm install`
-`npm install --legacy-peer-deps`
+1. Install frontend dependencies
+   - Navigate to the frontend directory and install dependencies
+     ```
+     cd frontend
+     npm install
+     ```
 
 
 Thank you for using InterviewEdge! Feel free to reach out with questions or suggestions.
