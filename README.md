@@ -20,18 +20,18 @@ This work has been accepted at the 2025 IEEE International Students' Conference 
 
 
 ## System Architecture
--Frontend: React.js
--Backend: Flask
--Deployment: Local server tunneling via Ngrok (optional)
--Model Integration:
-  -Utilizes Llama-3.2-3B-Instruct from Hugging Face
-  -Compatible with GPUs (16-24 GB VRAM)
+- Frontend: React.js
+- Backend: Flask
+- Deployment: Local server tunneling via Ngrok (optional)
+- Model Integration:
+  - Utilizes Llama-3.2-3B-Instruct from Hugging Face
+  - Compatible with GPUs (16-24 GB VRAM)
 
   
 ## Getting Started
 ### Prerequisites
--Frontend: Node.js (v14 or above)
--Backend: Python (v3.8 or above), Ngrok (optional), Lightning AI (optional for GPU support)
+- Frontend: Node.js (v14 or above)
+- Backend: Python (v3.8 or above), Ngrok (optional), Lightning AI (optional for GPU support)
 
 ### Installation Steps
 `cd frontend`
